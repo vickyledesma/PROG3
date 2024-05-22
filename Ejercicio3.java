@@ -1,13 +1,13 @@
 import java.util.HashMap;
 import java.util.Iterator;
 
-public class Ciclo {
+public class Ejercicio3 {
     private static final String BLANCO = "BLANCO";
     private static final String AMARILLO = "AMARILLO";
     private static final String NEGRO = "NEGRO";
     private HashMap<Integer, String> verticesColores;
 
-    public Ciclo() {
+    public Ejercicio3() {
         this.verticesColores = new HashMap<>();
     }
 

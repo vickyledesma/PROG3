@@ -1,11 +1,11 @@
 import java.util.*;
 
-public class Camino {
+public class Ejercicio5 {
     private static final String BLANCO = "BLANCO";
     private static final String AMARILLO = "AMARILLO";
     private HashMap<Integer, String> verticesColores;
 
-    public Camino() {
+    public Ejercicio5() {
         this.verticesColores = new HashMap<>();
     }
 

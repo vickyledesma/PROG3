@@ -1,17 +1,17 @@
 import java.util.*;
 
-public class Ciudad {
+public class Ejercicio6 {
     private HashMap<Integer, Boolean> visitaVertices;
     private Queue<Integer> colaVertices;
     private HashMap<Integer, Integer> padres;
 
-    public Ciudad() {
+    public Ejercicio6() {
         this.visitaVertices = new HashMap<>();
         this.colaVertices = new LinkedList<>();
         this.padres = new HashMap<>();
     }
 
-    public Ciudad(Grafo<Integer> grafo) {
+    public Ejercicio6(Grafo<Integer> grafo) {
         this();
         Iterator<Integer> vertices = grafo.obtenerVertices();
         while(vertices.hasNext()) {
